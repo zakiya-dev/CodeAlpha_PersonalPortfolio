@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zakiya Sharieff | Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+ 
+  <!-- ============ NAV ============ -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Zakiya Sharieff</a>
+ 
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+ 
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+ 
+  <main>
+ 
+    <!-- ============ HERO ============ -->
+    <section class="hero container reveal">
+      <h1 class="hero__title">
+        Building clean, useful <span class="highlight">web experiences.</span>
+      </h1>
+      <p class="hero__subtitle">
+        MCA student at CMR University · Frontend-focused · Learning in public
+      </p>
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">See my projects</a>
+        <a href="#contact" class="btn btn--ghost">Get in touch</a>
+      </div>
+    </section>
+ 
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section container reveal">
+      <h2 class="section__title">About Me</h2>
+      <div class="about__content">
+        <p>
+          I'm a Master of Computer Applications student at CMR University,
+          Bangalore, with hands-on experience across frontend and backend
+          development. I enjoy turning ideas into working interfaces, and
+          I'm currently sharpening my web development skills through
+          project-based learning and internships.
+        </p>
+      </div>
+    </section>
+ 
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section container reveal">
+      <h2 class="section__title">Skills</h2>
+      <ul class="skills__grid">
+        <li class="skill-tag">HTML5</li>
+        <li class="skill-tag">CSS3</li>
+        <li class="skill-tag">JavaScript</li>
+        <li class="skill-tag">PHP</li>
+        <li class="skill-tag">SQL</li>
+        <li class="skill-tag">Python</li>
+        <li class="skill-tag">Java</li>
+        <li class="skill-tag">Power BI</li>
+        <li class="skill-tag">Git &amp; GitHub</li>
+      </ul>
+    </section>
+ 
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section container reveal">
+      <h2 class="section__title">Projects</h2>
+      <div class="projects__grid">
+ 
+        <article class="project-card">
+          <div class="project-card__body">
+            <h3>Calculator</h3>
+            <p>
+              A calculator that correctly handles order of operations and
+              nested parentheses using a hand-written expression parser —
+              plus a running history panel that saves past calculations.
+            </p>
+            <ul class="project-card__tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="project-card__links">
+            <a href="https://github.com/zakiya-dev/CodeAlpha_Calculator" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+ 
+      </div>
+    </section>
+ 
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section container reveal">
+      <h2 class="section__title">Get In Touch</h2>
+      <p class="contact__intro">
+        Have an opportunity, a question, or just want to connect? My inbox
+        is open.
+      </p>
+ 
+      <form class="contact__form" id="contactForm" action="https://formspree.io/f/mvzejrjw" method="POST">
+        <div class="form__group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+        </div>
+        <div class="form__group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+        </div>
+        <div class="form__group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary">Send message</button>
+        <p class="form__status" id="formStatus" role="status"></p>
+      </form>
+ 
+      <div class="contact__links">
+        <a href="mailto:zakiyasharieff18@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/zakiya-sharieff" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/zakiya-dev" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+ 
+  </main>
+ 
+  <footer class="site-footer">
+    <p class="container">
+      &copy; <span id="year"></span> Zakiya Sharieff. Built with HTML, CSS &amp; JavaScript.
+    </p>
+  </footer>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
