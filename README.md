@@ -22,3 +22,15 @@ A single-page portfolio showcasing background, skills, projects, and a working c
 - JavaScript (IntersectionObserver for scroll animations, Fetch API for the contact form)
 
 ## 📁 Project Structure
+
+## 🚀 Running Locally
+1. Clone this repo
+2. Open `index.html` in your browser, or use VS Code's Live Server extension
+
+## 👤 Author
+**Zakiya Sharieff**
+- GitHub: [@zakiya-dev](https://github.com/zakiya-dev)
+- LinkedIn: [Zakiya Sharieff](https://www.linkedin.com/in/zakiya-sharieff)
+
+## 📄 Internship
+Built for the **CodeAlpha Frontend Development Internship Program**.
