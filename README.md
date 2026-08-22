@@ -22,6 +22,11 @@ A single-page portfolio showcasing background, skills, projects, and a working c
 - JavaScript (IntersectionObserver for scroll animations, Fetch API for the contact form)
 
 ## 📁 Project Structure
+CodeAlpha_PersonalPortfolio/
+├── index.html
+├── style.css
+├── script.js
+└── assets/
 
 ## 🚀 Running Locally
 1. Clone this repo
